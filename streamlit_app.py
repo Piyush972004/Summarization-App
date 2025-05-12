@@ -21,7 +21,7 @@ base_model.to(device)
 
 # Load the retrieval model (Sentence-BERT) and FAISS index
 retriever_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
-corpus_embeddings = np.load(r"C:\Users\piyus\Documents\LaMini-LM-Summarization-Streamlit-App-main\corpus_embeddings.npy")
+corpus_embeddings = np.load(r"C:\Users\piyus\Documents\GitHub\Summarization-App\corpus_embeddings.npy")
  # Load precomputed embeddings
 corpus_texts = [
     "Document 1 content here.",
